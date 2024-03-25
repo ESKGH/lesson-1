@@ -57,9 +57,9 @@ var stringVariable = "Privet!";
 var numberVariable = 42;
 var booleanVariable = true;
 
-console.log("Variable: stringVariable have type: " + typeof stringVariable);
-console.log("Variable: numberVariable have type: " + typeof numberVariable);
-console.log("Variable: booleanVariable have type: " + typeof booleanVariable);
+console.log("Variable: %stringVariable% have type: " + "%" + typeof stringVariable + "%");
+console.log("Variable: %numberVariable% have type: " + "%" + typeof numberVariable + "%");
+console.log("Variable: %booleanVariable% have type: " + "%" + typeof booleanVariable + "%");
 
 
 
